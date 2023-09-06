@@ -13,13 +13,18 @@
     <main></main>
     <h1 data-value="KARMAKSHETRA">KARMAKSHETRA</h1>
 
-    <button class="Enter">Enter</button>
+    <button id="butm" class="Enter">Enter</button>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script>
       function redirectToSecondPage() {
         window.location.href = "./homepage/index.html";
       }
     </script>
+    <script type="text/javascript">
+    document.getElementById("butm").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
   </body>
   <script src="animation.js"></script>
 </html>
