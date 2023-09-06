@@ -13,13 +13,20 @@
     <main></main>
     <h1 data-value="KARMAKSHETRA">KARMAKSHETRA</h1>
 
-    <button onclick="location.href = 'hackathon.html';" class="Enter" >Enter</button>
+    <button id="buttum" class="Enter" >Enter</button>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script>
       function redirectToSecondPage() {
         window.location.href = "./homepage/index.html";
       }
     </script>
+    <button id="myButton" class="float-left submit-button" >Home</button>
+
+<script type="text/javascript">
+    document.getElementById("buttum").onclick = function () {
+        location.href = "hackathon.html";
+    };
+</script>
   </body>
   <script src="animation.js"></script>
 </html>
